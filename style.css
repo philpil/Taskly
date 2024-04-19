@@ -11,27 +11,24 @@ html:focus-within{
 img, picture, svg, video, canvas{
   max-width: 100%;
   height: auto;
-  vertical-align:middle;
-  font-style:italic;
-  background-repeat:no-repeat;
-  background-size:cover;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 input, button, textarea, select{
-  font:inherit;
+  font: inherit;
 }
 body, html{
-  height:100%;
-  scroll-behavior:smooth;
-}
-body{
-  
+  height: 100%;
+  scroll-behavior: smooth;
 }
 .left-sidebar{
-  width:100px; 
-  height:100vh;
-  border-right:1px solid grey;
+  width: 60px; 
+  height: 100vh;
+  border-right: 1px solid grey;
+  display: inline-flex;
 }
-
 .main-content{
-  
+  display: inline-flex;
 }
